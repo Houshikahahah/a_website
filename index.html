@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Houshika's Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <style>
+    .right-align {
+          float: right; /* Aligns the image to the right */
+          margin: 0 0 10px 10px; /* Adds some space around the image */
+        }
+  </style>
+  
+</head>
+
+<body>
+
+  <!--splash screen-->
+  <header>
+    <div class="intro">
+      <h1 class="logo-header">
+        <span class="logo">WEL</span><span class="logo">COME.</span>
+      </h1>
+    </div>
+
+    <!--navbar-->
+    <div class="navbarlogo">Houshika</div>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="index.html" class="active-navbar">About</a>
+        </li>
+        <li>
+          <a href= "">School</a>
+        </li>
+        <li>
+          <a href="">Resume</a>
+        </li>
+        <li>
+          <a href="">Achievements</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <script>
+    hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+      navBar = document.querySelector(".nav-bar");
+      navBar.classList.toggle("active");
+    }
+  </script>
+
+  <!--About me section-->
+
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="social">
+      <a href=""><i class="bx bxl-github"></i></a>
+      <a href=""><i class="bx bxl-instagram"></i></a>
+      <a href=""><i class="bx bxl-telegram"></i></a>
+      <a href=""><i class="bx bxl-linkedin"></i></a>
+    </div>
+
+
+    <div class="home-text">
+      <h2>Hello, I'm</h2>
+      <h1>Houshika Barathimogan</h1>
+      <p> I am a <span class="typing-test">Student</span></p>
+      
+    </div>
+
+  </section>
+
+
+  
+  <!-- type links-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"></script>
+
+
+  <!-- particles.js links-->
+  <script src="js/particles.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
